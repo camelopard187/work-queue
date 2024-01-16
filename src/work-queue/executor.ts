@@ -55,3 +55,13 @@ export class SimpleWorkQueueExecutor<Input, Output>
     return fulfilled;
   }
 }
+
+function MyFunction(a: string): void {
+  {
+    const a = 1 + 1;
+  }
+
+  return;
+
+  console.log(1);
+}
